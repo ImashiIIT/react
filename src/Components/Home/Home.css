@@ -1,0 +1,134 @@
+.nav-bar {
+  width: 100%; /* Ensures the nav-bar spans the full width */
+  max-width: 1200px; /* Optional: Limits the width for larger screens */
+  margin: 30px; /* Adds spacing around the nav-bar */
+  padding: 20px; /* Adds spacing inside the nav-bar */
+  display: flex; /* Makes the nav-bar a flex container */
+  justify-content: flex-start; /* Keeps the nav-bar aligned to the left */
+  align-items: flex-start; /* Prevents vertical centering */
+  position: absolute; /* Overrides body centering */
+  top: 0; /* Positions the nav-bar at the top of the page */
+  left: 100px; /* Ensures it starts from the left edge */
+  background: rgba(255, 255, 255, 0.2); /* Optional: Semi-transparent background for visibility */
+  z-index: 70; /* Ensures the nav-bar stays on top of other elements */
+  border-radius: 10px;
+  position: fixed; /* Ensures it stays at the top */
+}
+
+.nav-bar ul {
+  list-style: none; /* Removes default list styling */
+  margin: 0 auto; /* Centers the `ul` within the nav-bar */
+  padding: 0; /* Resets default padding */
+  display: flex; /* Makes the `ul` a flex container */
+  justify-content: center; /* Centers the content inside the `ul` */
+  width: 100%; /* Ensures the `ul` spans the width of the nav-bar */
+}
+
+.nav-bar li {
+  display: inline-block; /* Ensures horizontal alignment of items */
+  margin-right: 15px; /* Adds spacing between items */
+}
+
+.nav-bar a {
+  text-decoration: none; /* Removes underline from links */
+  color: #ffffff; /* Sets the link color */
+}
+
+.nav-bar a:hover {
+  color: #007bff; /* Optional: Adds hover effect */
+}
+/* .content {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(226, 221, 221, 0.5);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  /* left: 0;  Align to the left 
+  right: 400px;
+  margin-left: 10px; 
+  position: relative; 
+} */
+.content1 {
+  text-align: center;
+  margin: 20px auto;
+  color: #ffffff;
+  justify-content: center;
+  padding: 60px;
+}
+
+.title {
+  margin: 10px 0;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.line {
+  height: 2px;
+  background-color: white;
+  margin: 10px auto;
+  width: 80%;
+}
+
+/* Animation styles */
+.animated-title {
+  opacity: 1;
+  transform: translateY(20px);
+  animation: fadeSlideUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.content1 p {
+  color: #ffffff; 
+  font-weight: bold; 
+}
+.content2 {
+  display: flex; /* Use flexbox to align the children in a row */
+  justify-content: space-around; /* Space out the items evenly */
+  align-items: center; /* Vertically center the items */
+}
+
+.booking-image, .event-image, .section-image {
+  width: 50px; /* Set the image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adds space between image and text */
+}
+
+.content3 p {
+  text-align: center; /* Ensures the text is centered below each image */
+  font-style: italic;
+  color: #ffffff;
+}
+.content3{
+  width: 450px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    display: flex; /* Enables Flexbox for alignment */
+  align-items: right; /* Vertically aligns items */
+  gap: 20px; /* Adds spacing between items */
+  
+}
+
+
+.booking-header h3 {
+  margin: 0; /* Removes default margins for h3 */
+  font-size: 1.5rem; /* Adjust font size */
+}
+
+.booking-header p {
+  margin: 0; /* Removes default margins for p */
+  font-size: 1rem; /* Adjust font size for readability */
+  max-width: 600px; /* Prevents the paragraph from being too wide */
+}

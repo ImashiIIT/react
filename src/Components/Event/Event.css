@@ -1,0 +1,12 @@
+.event-container {
+    font-family: 'Poppins', 'sans-serif';
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('imashi\src\Components\Assests\wallhaven-4yg19d.jpg'); Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
+    color: white; /* Adjust text color to ensure readability */
+}
