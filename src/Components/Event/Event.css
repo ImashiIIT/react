@@ -1,12 +1,21 @@
 .event-container {
     font-family: 'Poppins', 'sans-serif';
-    min-height: 100vh;
     display: flex;
+    flex-direction: column; /* Ensures content inside stacks vertically */
     justify-content: center;
     align-items: center;
-    /* background-image: url('imashi\src\Components\Assests\wallhaven-4yg19d.jpg'); Replace with your image path */
+    position: absolute; /* Use absolute positioning */
+    left: 500px; /* Align to the left side of the page */
+    top: 35%; /* Vertically center */
+    transform: translateY(-50%); /* Correct for centering */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
     color: white; /* Adjust text color to ensure readability */
+    width: 450px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(226, 221, 221, 0.5);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
 }

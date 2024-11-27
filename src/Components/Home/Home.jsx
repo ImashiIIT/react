@@ -46,7 +46,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <div className="content3">
+            <div className="content4">
                 <div className="booking-header">
                     <h3>Events:</h3>
                     <p>
@@ -56,7 +56,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <div className="content3">
+            <div className="content5">
                 <div className="booking-header">
                     <h3>Sections:</h3>
                     <p>

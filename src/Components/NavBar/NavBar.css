@@ -1,0 +1,39 @@
+.nav-bar {
+    width: 100%; /* Ensures the nav-bar spans the full width */
+    max-width: 1200px; /* Optional: Limits the width for larger screens */
+    margin: 30px; /* Adds spacing around the nav-bar */
+    padding: 20px; /* Adds spacing inside the nav-bar */
+    display: flex; /* Makes the nav-bar a flex container */
+    justify-content: flex-start; /* Keeps the nav-bar aligned to the left */
+    align-items: flex-start; /* Prevents vertical centering */
+    position: absolute; /* Overrides body centering */
+    top: 0; /* Positions the nav-bar at the top of the page */
+    left: 100px; /* Ensures it starts from the left edge */
+    background: rgba(255, 255, 255, 0.2); /* Optional: Semi-transparent background for visibility */
+    z-index: 70; /* Ensures the nav-bar stays on top of other elements */
+    border-radius: 10px;
+    position: fixed; /* Ensures it stays at the top */
+  }
+  
+  .nav-bar ul {
+    list-style: none; /* Removes default list styling */
+    margin: 0 auto; /* Centers the `ul` within the nav-bar */
+    padding: 0; /* Resets default padding */
+    display: flex; /* Makes the `ul` a flex container */
+    justify-content: center; /* Centers the content inside the `ul` */
+    width: 100%; /* Ensures the `ul` spans the width of the nav-bar */
+  }
+  
+  .nav-bar li {
+    display: inline-block; /* Ensures horizontal alignment of items */
+    margin-right: 15px; /* Adds spacing between items */
+  }
+  
+  .nav-bar a {
+    text-decoration: none; /* Removes underline from links */
+    color: #ffffff; /* Sets the link color */
+  }
+  
+  .nav-bar a:hover {
+    color: #000000; /* Optional: Adds hover effect */
+  }

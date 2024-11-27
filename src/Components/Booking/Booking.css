@@ -1,0 +1,55 @@
+.form {
+    margin: 100px;
+    height: 500px;
+    width: 400px;
+    background: rgba(91, 87, 87, 0.5);
+    border: 2px solid rgb(164, 156, 156); 
+    color: #756d6d;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.input-field{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-field input{
+    width: 94%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    padding-left: 20px;
+    color: #e7e7e7;
+}
+.input-field label{
+    color: rgb(255, 255, 255);
+}
+.input-field input::placeholder{
+    color: rgb(227, 227, 227);
+}
+.input-field input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+.form button{
+    margin: 110px;
+    width: 50%;
+    height: 45px;
+    background: rgb(255, 255, 255,0.5);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    position: none; 
+    left: 0; /* Align it to the left edge of the page */
+    top: 150%; /* Center it vertically on the page */
+    transform: translateY(-50%); /* Correct vertical centering */
+  }

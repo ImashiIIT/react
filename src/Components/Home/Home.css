@@ -9,7 +9,7 @@
   position: absolute; /* Overrides body centering */
   top: 0; /* Positions the nav-bar at the top of the page */
   left: 100px; /* Ensures it starts from the left edge */
-  background: rgba(255, 255, 255, 0.2); /* Optional: Semi-transparent background for visibility */
+  background: rgba(255, 255, 255, 0.5); /* Optional: Semi-transparent background for visibility */
   z-index: 70; /* Ensures the nav-bar stays on top of other elements */
   border-radius: 10px;
   position: fixed; /* Ensures it stays at the top */
@@ -26,7 +26,7 @@
 
 .nav-bar li {
   display: inline-block; /* Ensures horizontal alignment of items */
-  margin-right: 15px; /* Adds spacing between items */
+  margin-right: 100px; /* Adds spacing between items */
 }
 
 .nav-bar a {
@@ -35,7 +35,7 @@
 }
 
 .nav-bar a:hover {
-  color: #007bff; /* Optional: Adds hover effect */
+  color: #000000; /* Optional: Adds hover effect */
 }
 /* .content {
   width: 450px;
@@ -103,25 +103,70 @@
   margin-right: 10px; /* Adds space between image and text */
 }
 
+.content3 {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(226, 221, 221, 0.5);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  display: flex; /* Enables Flexbox for alignment */
+  flex-direction: column; /* Ensures content stacks vertically */
+  gap: 20px; /* Adds spacing between items */
+  position: absolute; /* Position the container absolutely */
+  left: 190px; /* Align it to the left edge of the page */
+  top: 110%; /* Center it vertically on the page */
+  transform: translateY(-50%); /* Correct vertical centering */
+}
+
 .content3 p {
   text-align: center; /* Ensures the text is centered below each image */
   font-style: italic;
   color: #ffffff;
 }
-.content3{
-  width: 450px;
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px solid rgba(226, 221, 221, 0.5); 
-    color: #ffffff;
-    border-radius: 10px;
-    padding: 30px 40px;
-    display: flex; /* Enables Flexbox for alignment */
-  align-items: right; /* Vertically aligns items */
+
+.content4 {
+  width: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(226, 221, 221, 0.5);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  display: flex; /* Enables Flexbox for alignment */
+  flex-direction: column; /* Ensures content stacks vertically */
   gap: 20px; /* Adds spacing between items */
-  
+  position: absolute; /* Position the container absolutely */
+  right:190px; /* Align it to the left edge of the page */
+  top: 110%; /* Center it vertically on the page */
+  transform: translateY(-50%); /* Correct vertical centering */
 }
 
+.content4 p {
+  text-align: center; /* Ensures the text is centered below each image */
+  font-style: italic;
+  color: #ffffff;
+}
+.content5 {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(226, 221, 221, 0.5);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  display: flex; /* Enables Flexbox for alignment */
+  flex-direction: column; /* Ensures content stacks vertically */
+  gap: 20px; /* Adds spacing between items */
+  position: absolute; /* Position the container absolutely */
+  left: 500px; /* Align it to the left edge of the page */
+  top: 160%; /* Center it vertically on the page */
+  transform: translateY(-50%); /* Correct vertical centering */
+}
 
+.content5 p {
+  text-align: center; /* Ensures the text is centered below each image */
+  font-style: italic;
+  color: #ffffff;
+}
 .booking-header h3 {
   margin: 0; /* Removes default margins for h3 */
   font-size: 1.5rem; /* Adjust font size */
