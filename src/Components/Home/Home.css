@@ -115,8 +115,22 @@
   gap: 20px; /* Adds spacing between items */
   position: absolute; /* Position the container absolutely */
   left: 190px; /* Align it to the left edge of the page */
-  top: 110%; /* Center it vertically on the page */
-  transform: translateY(-50%); /* Correct vertical centering */
+  top: 110%; /* Remains constant during the animation */
+  transform: translateY(-50%); /* Keeps vertical centering consistent */
+  
+  /* Animation properties */
+  animation: slideInFromLeft 1.5s ease-out; /* Apply animation */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0; /* Starts invisible */
+    transform: translate(-100%, -50%); /* Moves horizontally from off-screen while maintaining vertical position */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+    transform: translate(0, -50%); /* Ends in its original horizontal position while maintaining vertical centering */
+  }
 }
 
 .content3 p {
@@ -136,9 +150,23 @@
   flex-direction: column; /* Ensures content stacks vertically */
   gap: 20px; /* Adds spacing between items */
   position: absolute; /* Position the container absolutely */
-  right:190px; /* Align it to the left edge of the page */
-  top: 110%; /* Center it vertically on the page */
-  transform: translateY(-50%); /* Correct vertical centering */
+  right: 190px; /* Align it to the right edge of the page */
+  top: 110%; /* Keeps it vertically aligned */
+  transform: translateY(-50%); /* Maintains vertical centering */
+  
+  /* Animation properties */
+  animation: slideInFromRight 1.5s ease-out; /* Apply animation */
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0; /* Starts invisible */
+    transform: translate(100%, -50%); /* Moves horizontally from off-screen to the right while maintaining vertical position */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+    transform: translate(0, -50%); /* Ends in its original horizontal position while maintaining vertical centering */
+  }
 }
 
 .content4 p {
@@ -158,9 +186,24 @@
   gap: 20px; /* Adds spacing between items */
   position: absolute; /* Position the container absolutely */
   left: 500px; /* Align it to the left edge of the page */
-  top: 160%; /* Center it vertically on the page */
-  transform: translateY(-50%); /* Correct vertical centering */
+  top: 160%; /* Remains constant during the animation */
+  transform: translateY(-50%); /* Keeps vertical centering consistent */
+  
+  /* Animation properties */
+  animation: slideInFromLeft 1.5s ease-out; /* Apply animation */
 }
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0; /* Starts invisible */
+    transform: translate(-100%, -50%); /* Moves horizontally from off-screen while maintaining vertical position */
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+    transform: translate(0, -50%); /* Ends in its original horizontal position while maintaining vertical centering */
+  }
+}
+
 
 .content5 p {
   text-align: center; /* Ensures the text is centered below each image */

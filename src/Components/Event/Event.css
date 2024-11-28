@@ -19,3 +19,86 @@
     border-radius: 10px;
     padding: 30px 40px;
 }
+.event1{
+    width: 400px;
+    background: rgba(88, 87, 87);
+    border: 2px solid rgba(226, 221, 221, 0.5);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 400px auto; /* Adjust the top margin for downward positioning and center horizontally */
+    align-items: center;
+    position: absolute; /* Use absolute positioning */
+    left: 30px; /* Align to the left side of the page */
+    top: 100%; /* Vertically center */
+    transform: translateY(-50%); /* Correct for centering */
+}
+.event2{
+    width: 400px;
+    background: rgba(88, 87, 87);
+    border: 2px solid rgba(226, 221, 221, 0.5);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 400px auto; /* Adjust the top margin for downward positioning and center horizontally */
+    align-items: center;
+    position: absolute; /* Use absolute positioning */
+    left: 520px; /* Align to the left side of the page */
+    top: 114.5%; /* Vertically center */
+    transform: translateY(-50%); /* Correct for centering */
+}
+.event3{
+    width: 400px;
+    background: rgba(88, 87, 87);
+    border: 2px solid rgba(226, 221, 221, 0.5);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 400px auto; /* Adjust the top margin for downward positioning and center horizontally */
+    align-items: center;
+    position: absolute; /* Use absolute positioning */
+    left: 1010px; /* Align to the left side of the page */
+    top: 114.5%; /* Vertically center */
+    transform: translateY(-50%); /* Correct for centering */
+}
+.event1 h3 {
+    color: transparent; /* Makes the text transparent */
+    -webkit-text-stroke: 1px white; /* Adds a white outline to the text */
+    text-stroke: 1px white; /* For non-WebKit browsers (if supported) */
+    font-weight: bold; /* Optional: Makes the outline more prominent */
+    text-align: center; /* Optional: Center-align the text */
+}
+.event2 h3 {
+    color: transparent; /* Makes the text transparent */
+    -webkit-text-stroke: 1px white; /* Adds a white outline to the text */
+    text-stroke: 1px white; /* For non-WebKit browsers (if supported) */
+    font-weight: bold; /* Optional: Makes the outline more prominent */
+    text-align: center; /* Optional: Center-align the text */
+}
+.event3 h3 {
+    color: transparent; /* Makes the text transparent */
+    -webkit-text-stroke: 1px white; /* Adds a white outline to the text */
+    text-stroke: 1px rgb(0, 0, 0); /* For non-WebKit browsers (if supported) */
+    font-weight: bold; /* Optional: Makes the outline more prominent */
+    text-align: center; /* Optional: Center-align the text */
+}
+.event1 h4{
+    color: transparent; /* Makes the text transparent */
+    -webkit-text-stroke: 1px rgb(0, 0, 0); /* Adds a white outline to the text */
+    text-stroke: 1px rgb(255, 255, 255); /* For non-WebKit browsers (if supported) */
+    font-weight: bold; /* Optional: Makes the outline more prominent */
+    text-align: center; /* Optional: Center-align the text */
+}
+.event2 h4{
+    color: transparent; /* Makes the text transparent */
+    -webkit-text-stroke: 1px rgb(0, 0, 0); /* Adds a white outline to the text */
+    text-stroke: 1px white; /* For non-WebKit browsers (if supported) */
+    font-weight: bold; /* Optional: Makes the outline more prominent */
+    text-align: center; /* Optional: Center-align the text */
+}.event3 h4{
+    color: transparent; /* Makes the text transparent */
+    -webkit-text-stroke: 1px rgb(0, 0, 0); /* Adds a white outline to the text */
+    text-stroke: 1px rgb(255, 255, 255); /* For non-WebKit browsers (if supported) */
+    font-weight: bold; /* Optional: Makes the outline more prominent */
+    text-align: center; /* Optional: Center-align the text */
+}

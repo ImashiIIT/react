@@ -37,6 +37,10 @@ const Home = () => {
                     <img src="path_to_section_image.png" alt="Section" className="section-image" />
                     <p><a href="/section">Sections</a></p>
                 </div>
+                <div className='menu-item'>
+                    <img src="path_to_section_image.png" alt="Menu" className="Menu-image" />
+                    <p><a href="/menu">Menu</a></p>
+                </div>
             </div>
             <div className="content3">
                 <div className="booking-header">

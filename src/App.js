@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Booking from './Components/Booking/Booking';
 import Event from './Components/Event/Event';
 import Section from './Components/Section/Section';
+import Menu from './Components/Menu/Menu';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path='/booking'element={<Booking/>}/>
                 <Route path='/event' element={<Event/>}/>
                 <Route path='/section'element={<Section/>}/>
+                <Route path='/menu' element={<Menu/>}/>
             </Routes>
         </Router>
     );

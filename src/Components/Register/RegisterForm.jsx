@@ -31,8 +31,8 @@ const RegisterForm = () =>{
                 </div>
 
                 <Link to="/home">
-                <button type="button">Login</button>
-            </Link>
+                    <button type="button">Login</button>
+                </Link>
             </form>
         </div>
     )

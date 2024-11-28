@@ -1,0 +1,21 @@
+.intro{
+    font-family: 'Poppins', 'sans-serif';
+    display: flex;
+    flex-direction: column; /* Ensures content inside stacks vertically */
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Use absolute positioning */
+    left: 500px; /* Align to the left side of the page */
+    top: 170%; /* Vertically center */
+    transform: translateY(-50%); /* Correct for centering */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
+    color: rgb(0, 0, 0); /* Adjust text color to ensure readability */
+    width: 450px;
+    background: rgba(255, 255, 255,0.8);
+    border: 2px solid rgba(101, 96, 96, 0.5);
+    color: #000000;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
