@@ -7,6 +7,7 @@ import Event from './Components/Event/Event';
 import Section from './Components/Section/Section';
 import Menu from './Components/Menu/Menu';
 import Contact from './Components/Contact/Contact';
+import AboutUs from './Components/AboutUs/AboutUs';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 <Route path='/section'element={<Section/>}/>
                 <Route path='/menu' element={<Menu/>}/>
                 <Route path='/contact' element={<Contact/>}/>
+                <Route path='/about' element={<AboutUs/>}/>
             </Routes>
         </Router>
     );
