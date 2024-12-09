@@ -1,18 +1,51 @@
-.container-1 {
-    background-image: url('C:\Users\WAC\Desktop\Project\imashi\src\Components\Assests\pasta.jpg'); /* Ensure the file path is correct */
-    background-size: cover; /* Ensures the image covers the entire container */
-    background-position: center; /* Centers the image within the container */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    width: 450px;
-    height: 300px;
-    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+.aboutUs{
+    font-family: 'Poppins', 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center content horizontally */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure it covers full height */
+    overflow-y: auto; /* Allow scrolling if content exceeds viewport height */
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/about_us.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* .container-1 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/pasta.jpg'); Ensure the file path is correct 
+    background-size: cover; /* Ensures the image covers the entire container 
+    background-position: center; /* Centers the image within the container 
+    background-repeat: no-repeat; /* Prevents the image from repeating 
+    width: 100px; /* Set the width to make it square 
+    height: 100px; /* Set the height to make it square 
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color 
     border: 2px solid rgba(226, 221, 221, 0.5); 
     color: #ffffff;
-    border-radius: 10px;
+    border-radius:100%; /* This makes the container circular 
     padding: 30px 40px;
-    position: absolute; /* Position the container absolutely */
-    left: 190px; /* Align it to the left edge of the page */
+    position: absolute; /* Position the container absolutely 
+    left: 190px; /* Align it to the left edge of the page 
     top: 60%; 
-    transform: translateY(-50%); /* Keeps vertical centering consistent */
-    filter: brightness(40%)
+    transform: translateY(-50%); /* Keeps vertical centering consistent 
+    /* filter: brightness(40%); 
 }
+.container-2 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/steak.jpg'); /* Ensure the file path is correct 
+    background-size: cover; /* Ensures the image covers the entire container 
+    background-position: center; /* Centers the image within the container 
+    background-repeat: no-repeat; /* Prevents the image from repeating 
+    width: 100px; /* Set the width to make it square 
+    height: 100px;  Set the height to make it square 
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color 
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular 
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely 
+    left: 190px; /* Align it to the left edge of the page 
+    top: 40%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); 
+} */

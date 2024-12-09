@@ -1,3 +1,19 @@
+.booking{
+    font-family: 'Poppins', 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center content horizontally */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure it covers full height */
+    overflow-y: auto; /* Allow scrolling if content exceeds viewport height */
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/booking.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
 .content {
     /* height: 300px; */
     width: 500px;

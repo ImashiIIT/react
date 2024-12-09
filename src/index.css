@@ -4,7 +4,8 @@
   padding: 0;
   box-sizing:border-box ;
 }
-body {
+
+/* body {
   font-family: 'Poppins','sans-serif';
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
@@ -15,8 +16,8 @@ body {
   background-image: url('./Components/Assests/wallhaven-g8l1ee.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* This makes the background image fixed */
-} 
+  background-attachment: fixed; /* This makes the background image fixed 
+}  */
 /* .nav-bar {
   width: 100%; 
   max-width: 1200px; 

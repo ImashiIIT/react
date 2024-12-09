@@ -4,16 +4,28 @@ import './Menu.css';
 const Menu = () => {
     return (
         <>
+        <div className='menu'>
         <div className='nav-bar'>
         <img src="./Components/Assests/DineFlow.png" alt="Logo" className="nav-logo" />
-
-                <ul>
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="news.asp">News</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
-                    <li><a href="/about">About</a></li>
-                </ul>
-            </div>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+        </div>
+        <div className='container-1'> </div>
+        <div className='container-2'></div>
+        <div className='container-3'></div>
+        <div className='container-4'></div>
+        <div className='container-5'></div>
+        <div className='container-6'></div>
+        <div className='container-7'></div>
+        <div className='container-8'></div>
+        <div className='container-9'></div>
+        <div className='container-10'></div>
+        <div className='container-11'></div>
+        <div className='container-12'></div>
         <div className='intro'>
         <img src="./Components/Assests/DineFlow.png" alt="Logo" className="nav-logo" />
             <h3>Welcome to DineFlow</h3>
@@ -79,6 +91,7 @@ const Menu = () => {
             <h3>Specials of the Day *(Chef's Recommendations)*  </h3>
             <p>**Ask your server about today’s special dishes and pairings!**</p>
             <p>Feel free to customize this menu with your restaurant’s branding and pricing!</p>
+        </div>
         </div>
         </>
     );

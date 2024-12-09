@@ -1,21 +1,248 @@
-.intro{
+.menu {
     font-family: 'Poppins', 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     display: flex;
-    flex-direction: column; /* Ensures content inside stacks vertically */
-    justify-content: center;
-    align-items: center;
-    position: absolute; /* Use absolute positioning */
-    left: 500px; /* Align to the left side of the page */
-    top: 170%; /* Vertically center */
-    transform: translateY(-50%); /* Correct for centering */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center content horizontally */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure it covers full height */
+    overflow-y: auto; /* Allow scrolling if content exceeds viewport height */
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/menu.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
-    color: rgb(0, 0, 0); /* Adjust text color to ensure readability */
-    width: 450px;
-    background: rgba(255, 255, 255,0.8);
-    border: 2px solid rgba(101, 96, 96, 0.5);
-    color: #000000;
+    background-attachment: fixed;
+    
+}
+.intro {
+    font-family: 'Poppins', 'sans-serif';
+    display: flex;
+    flex-direction: column; /* Stacks content inside vertically */
+    justify-content: center;
+    align-items: center;
+    margin: 140px auto; /* Increase the top and bottom spacing with margin */
+    background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    border: 2px solid rgba(101, 96, 96, 0.5); /* Border for contrast */
     border-radius: 10px;
     padding: 30px 40px;
+    width: 450px;
+    color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+}
+.container-1 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/pasta.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 190px; /* Align it to the left edge of the page */
+    top: 160%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-2 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/steak.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 100px; /* Align it to the left edge of the page */
+    top: 145%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-3 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/rice.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 60px; /* Align it to the left edge of the page */
+    top: 65%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-4 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/coffee.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    right: 60px; /* Align it to the left edge of the page */
+    top: 100%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-5 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/spegatti.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    right: 190px; /* Align it to the left edge of the page */
+    top: 95%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-6 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/burger.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    right: 150px; /* Align it to the left edge of the page */
+    top: 115%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-7 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/cup.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    right: 60px; /* Align it to the left edge of the page */
+    top: 200%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-8 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/pie.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    right: 100px; /* Align it to the left edge of the page */
+    top: 220%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-9 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/cake.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    right: 210px; /* Align it to the left edge of the page */
+    top: 210%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-3 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/lime.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 60px; /* Align it to the left edge of the page */
+    top: 280%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-11 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/drink.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 190px; /* Align it to the left edge of the page */
+    top: 290%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
+}
+.container-12 {
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/latte.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border-radius:100%; /* This makes the container circular */
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 70px; /* Align it to the left edge of the page */
+    top: 300%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+    /* filter: brightness(40%); */
 }

@@ -4,6 +4,7 @@ import './Contact.css';
 const Contact = () => {
     return (
         <>
+        <div className='contact-page'>
         <div className='nav-bar'>
             <img src="./Components/Assests/DineFlow.png" alt="Logo" className="nav-logo" />
             <ul>
@@ -44,6 +45,7 @@ const Contact = () => {
             </div>
             <a href="/Home"><button type="submit">Send</button></a>
             </form>
+        </div>
         </div>
         </>
     );

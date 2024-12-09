@@ -5,6 +5,7 @@ import './AboutUs.css';
 const AboutUs = () => {
     return (
         <>
+        <div className='aboutUs'>
         <div className='nav-bar'>
             <img src="./Components/Assests/DineFlow.png" alt="Logo" className="nav-logo" />
             <ul>
@@ -14,8 +15,11 @@ const AboutUs = () => {
                 <li><a href="/about">About</a></li>
             </ul>
         </div>
-        <div className='container-1'>
+        <div className='container-1'>   
+        </div>
+        <div className='container-2'>
             
+        </div>
         </div>
         </>
     );

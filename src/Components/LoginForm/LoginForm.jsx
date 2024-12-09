@@ -4,6 +4,7 @@ import './LoginForm.css';
 import {FaLock, FaUser} from "react-icons/fa";
 const LoginForm = () =>{
     return(
+        <div className='login-page'>
         <div className="wrapper">
             <form className="">
                 <h1>Login</h1>
@@ -29,6 +30,7 @@ const LoginForm = () =>{
                 </div>
                 
             </form>
+        </div>
         </div>
     )
 }

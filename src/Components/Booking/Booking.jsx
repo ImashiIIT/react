@@ -5,6 +5,7 @@ import './Booking.css';
 const Booking = () => {
     return (
         <>
+        <div className='booking'>
             <div className='nav-bar'>
             <img src="./Components/Assests/DineFlow.png" alt="Logo" className="nav-logo" />
 
@@ -41,6 +42,7 @@ const Booking = () => {
                 </div>
                 <a href="/Home"><button type="submit">Confirm</button></a>
                 </form>
+            </div>
             </div>
         </>
     );

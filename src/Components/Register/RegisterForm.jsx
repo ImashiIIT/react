@@ -4,6 +4,7 @@ import './RegisterForm.css';
 import {FaLock, FaUser} from "react-icons/fa";
 const RegisterForm = () =>{
     return(
+        <div className='login-page'>
         <div className="wrapper">
             <form className="">
                 <h1>Register</h1>
@@ -34,6 +35,7 @@ const RegisterForm = () =>{
                     <button type="button">Login</button>
                 </Link>
             </form>
+        </div>
         </div>
     )
 }

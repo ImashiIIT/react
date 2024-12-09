@@ -1,3 +1,19 @@
+.home {
+  font-family: 'Poppins', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center content horizontally */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure it covers full height */
+  overflow-y: auto; /* Allow scrolling if content exceeds viewport height */
+  background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/Home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} 
 .nav-bar {
   width: 100%; /* Ensures the nav-bar spans the full width */
   max-width: 1200px; /* Optional: Limits the width for larger screens */
@@ -31,11 +47,11 @@
 
 .nav-bar a {
   text-decoration: none; /* Removes underline from links */
-  color: #ffffff; /* Sets the link color */
+  color: #000000; /* Sets the link color */
 }
 
 .nav-bar a:hover {
-  color: #000000; /* Optional: Adds hover effect */
+  color: #6286aa; /* Optional: Adds hover effect */
 }
 /* .content {
   width: 450px;
@@ -50,11 +66,13 @@
   position: relative; 
 } */
 .content1 {
-  text-align: center;
-  margin: 20px auto;
-  color: #ffffff;
-  justify-content: center;
-  padding: 60px;
+  text-align: center; /* Center the text inside */
+  color: #ffffff; /* Text color */
+  padding: 50px; /* Add padding for spacing */
+  /* height: 300px; */
+  margin-top: 150px;
+  
+  
 }
 
 .title {
@@ -67,7 +85,7 @@
   height: 2px;
   background-color: white;
   margin: 10px auto;
-  width: 80%;
+  width: 100%;
 }
 
 /* Animation styles */
@@ -90,6 +108,7 @@
 .content1 p {
   color: #ffffff; 
   font-weight: bold; 
+  font-size: 1.5rem;
 }
 .content2 {
   display: flex; /* Use flexbox to align the children in a row */
@@ -102,107 +121,82 @@
   height: auto; /* Maintain aspect ratio */
   margin-right: 10px; /* Adds space between image and text */
 }
+.container {
+  /* Center the entire content block horizontally */
+  display: flex; /* Makes the container a flex container */
+  flex-direction: column; /* Stacks children vertically */
+  align-items: center; /* Centers children horizontally */
+  gap: 20px; /* Adds vertical spacing between rows */
+}
 
-.content3 {
-  width: 450px;
+.content-row {
+  display: flex; /* Makes the row a flex container */
+  justify-content: center; /* Centers items horizontally within the row */
+  gap: 20px; /* Adds horizontal spacing between items */
+  width: 100%; /* Ensures the row spans the container width */
+  max-width: 1200px; /* Optional: Limits the row's width */
+}
+
+.content3, .content4, .content5 {
+  width: 100%; /* Full width within the row */
+  max-width: 600px; /* Optional: Limit the maximum width */
   background: rgba(0, 0, 0, 0.5);
   border: 2px solid rgba(226, 221, 221, 0.5);
   color: #ffffff;
   border-radius: 10px;
   padding: 30px 40px;
-  display: flex; /* Enables Flexbox for alignment */
-  flex-direction: column; /* Ensures content stacks vertically */
-  gap: 20px; /* Adds spacing between items */
-  position: absolute; /* Position the container absolutely */
-  left: 190px; /* Align it to the left edge of the page */
-  top: 110%; /* Remains constant during the animation */
-  transform: translateY(-50%); /* Keeps vertical centering consistent */
-  
-  /* Animation properties */
-  animation: slideInFromLeft 1.5s ease-out; /* Apply animation */
+  animation: fadeIn 1.5s ease-out; /* Default fade-in */
+}
+
+.content3 {
+  animation: slideInFromLeft 1.5s ease-out; /* Content slides in from the left */
+}
+
+.content4 {
+  animation: slideInFromRight 1.5s ease-out; /* Content slides in from the right */
+}
+
+.content5 {
+  animation: slideInFromLeft 1.5s ease-out; /* Content slides in from the left */
 }
 
 @keyframes slideInFromLeft {
   0% {
-    opacity: 0; /* Starts invisible */
-    transform: translate(-100%, -50%); /* Moves horizontally from off-screen while maintaining vertical position */
+    opacity: 0;
+    transform: translateX(-100%); /* Start off-screen to the left */
   }
   100% {
-    opacity: 1; /* Fully visible */
-    transform: translate(0, -50%); /* Ends in its original horizontal position while maintaining vertical centering */
+    opacity: 1;
+    transform: translateX(0); /* Slide into its original position */
   }
 }
 
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Slide into its original position */
+  }
+}
 .content3 p {
   text-align: center; /* Ensures the text is centered below each image */
   font-style: italic;
   color: #ffffff;
 }
 
-.content4 {
-  width: 500px;
-  background: rgba(0, 0, 0, 0.5);
-  border: 2px solid rgba(226, 221, 221, 0.5);
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 30px 40px;
-  display: flex; /* Enables Flexbox for alignment */
-  flex-direction: column; /* Ensures content stacks vertically */
-  gap: 20px; /* Adds spacing between items */
-  position: absolute; /* Position the container absolutely */
-  right: 190px; /* Align it to the right edge of the page */
-  top: 110%; /* Keeps it vertically aligned */
-  transform: translateY(-50%); /* Maintains vertical centering */
-  
-  /* Animation properties */
-  animation: slideInFromRight 1.5s ease-out; /* Apply animation */
-}
 
-@keyframes slideInFromRight {
-  0% {
-    opacity: 0; /* Starts invisible */
-    transform: translate(100%, -50%); /* Moves horizontally from off-screen to the right while maintaining vertical position */
-  }
-  100% {
-    opacity: 1; /* Fully visible */
-    transform: translate(0, -50%); /* Ends in its original horizontal position while maintaining vertical centering */
-  }
-}
+
 
 .content4 p {
   text-align: center; /* Ensures the text is centered below each image */
   font-style: italic;
   color: #ffffff;
 }
-.content5 {
-  width: 450px;
-  background: rgba(0, 0, 0, 0.5);
-  border: 2px solid rgba(226, 221, 221, 0.5);
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 30px 40px;
-  display: flex; /* Enables Flexbox for alignment */
-  flex-direction: column; /* Ensures content stacks vertically */
-  gap: 20px; /* Adds spacing between items */
-  position: absolute; /* Position the container absolutely */
-  left: 500px; /* Align it to the left edge of the page */
-  top: 160%; /* Remains constant during the animation */
-  transform: translateY(-50%); /* Keeps vertical centering consistent */
-  
-  /* Animation properties */
-  animation: slideInFromLeft 1.5s ease-out; /* Apply animation */
-}
 
-@keyframes slideInFromLeft {
-  0% {
-    opacity: 0; /* Starts invisible */
-    transform: translate(-100%, -50%); /* Moves horizontally from off-screen while maintaining vertical position */
-  }
-  100% {
-    opacity: 1; /* Fully visible */
-    transform: translate(0, -50%); /* Ends in its original horizontal position while maintaining vertical centering */
-  }
-}
+
 
 
 .content5 p {
