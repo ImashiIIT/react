@@ -12,6 +12,115 @@
     background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/about_us.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+}
+.container1 {
+    font-family: 'Poppins', 'sans-serif';
+    display: flex; /* Flexbox for centering */
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    position: absolute;
+    left: 20%; /* Move the container to the center horizontally */
+    top: 20%; /* Move the container to the center vertically */
+    transform: translate(-50%); /* Adjust for the container's own dimensions */
+    background: rgb(255, 255, 255); /* White background */
+    color: #000000; /* Black text color */
+    width: 400px; /* Adjusted width for content */
+    text-align: center; /* Center text content horizontally */
+    padding: 50px; /* Padding for spacing */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visuals */
+    /* border-radius: 10px; Optional rounded corners */
+}
+.container2{
+    background-image: url('C:\Users\WAC\Desktop\Project\imashi\src\Components\Assests\serving1.avif'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 500px; /* Set the width to make it square */
+    height: 300px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    border-radius:10%; 
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 850px; /* Align it to the left edge of the page */
+    top: 40%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+}
+.container3{
+    background-image: url('C:\Users\WAC\Desktop\Project\imashi\src\Components\Assests\serving.jpg'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    border-radius:10%; 
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 800px; /* Align it to the left edge of the page */
+    top: 70%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+}
+.container4{
+    background-image: url('C:\Users\WAC\Desktop\Project\imashi\src\Components\Assests\serving2.avif'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    border-radius:10%; 
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 1200px; /* Align it to the left edge of the page */
+    top: 10%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+}
+.container5{
+    background-image: url('C:\Users\WAC\Desktop\Project\imashi\src\Components\Assests\serving3.avif'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    border-radius:10%; 
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 900px; /* Align it to the left edge of the page */
+    top: 80%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
+}
+.container6{
+    background-image: url('C:\Users\WAC\Desktop\Project\imashi\src\Components\Assests\serving4.avif'); /* Ensure the file path is correct */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100px; /* Set the width to make it square */
+    height: 100px; /* Set the height to make it square */
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: A semi-transparent overlay color */
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    color: #ffffff;
+    border: 2px solid rgba(226, 221, 221, 0.5); 
+    border-radius:10%; 
+    padding: 30px 40px;
+    position: absolute; /* Position the container absolutely */
+    left: 1280px; /* Align it to the left edge of the page */
+    top: 25%; 
+    transform: translateY(-50%); /* Keeps vertical centering consistent */
 }
 /* .container-1 {
     background-image: url('C:/Users/WAC/Desktop/Project/imashi/src/Components/Assests/pasta.jpg'); Ensure the file path is correct 
