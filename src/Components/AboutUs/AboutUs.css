@@ -23,6 +23,19 @@
     color: #000000; /* Black text color */
     
 }
+.about-content1{
+    width: 30%; /* Full width within the row */
+    max-width: 600px; /* Optional: Limit the maximum width */
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    color: #050505;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: absolute;
+    left: 110px;
+    top: 60%;
+    transform: translateY(-50%);
+}
 .container2{
     background-image: url('C:\Users\WAC\Desktop\Project\imashi\src\Components\Assests\serving1.avif'); /* Ensure the file path is correct */
     background-size: cover; /* Ensures the image covers the entire container */

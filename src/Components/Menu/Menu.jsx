@@ -6,7 +6,8 @@ const Menu = () => {
         <>
         <div className='menu'>
         <div className='nav-bar'>
-        <img src="./Components/Assests/DineFlow.png" alt="Logo" className="nav-logo" />
+            <div className='logo'></div>
+        {/* <img src="./Components/Assests/DineFlow.png" alt="Logo" className="nav-logo" /> */}
         <ul>
             <li><a href="/home">Home</a></li>
             <li><a href="news.asp">News</a></li>
