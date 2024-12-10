@@ -1,16 +1,33 @@
-.event-container {
+.event{
     font-family: 'Poppins', 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    /* overflow-y: auto; Allow scrolling */
+    background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/event.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; Makes the image stay fixed while scrolling */
+    /* color: white; */
+}
+.event-container {
+    /* font-family: 'Poppins', 'sans-serif'; */
     display: flex;
     flex-direction: column; /* Ensures content inside stacks vertically */
     justify-content: center;
     align-items: center;
     position: absolute; /* Use absolute positioning */
     left: 500px; /* Align to the left side of the page */
-    top: 35%; /* Vertically center */
+    top: 45%; /* Vertically center */
     transform: translateY(-50%); /* Correct for centering */
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Ensures the background stays fixed while scrolling */
+    /* background-attachment: fixed; Ensures the background stays fixed while scrolling */
     color: white; /* Adjust text color to ensure readability */
     width: 450px;
     background: rgba(0, 0, 0, 0.2);
@@ -30,7 +47,7 @@
     align-items: center;
     position: absolute; /* Use absolute positioning */
     left: 30px; /* Align to the left side of the page */
-    top: 100%; /* Vertically center */
+    top: 110%; /* Vertically center */
     transform: translateY(-50%); /* Correct for centering */
 }
 .event2{
@@ -44,7 +61,7 @@
     align-items: center;
     position: absolute; /* Use absolute positioning */
     left: 520px; /* Align to the left side of the page */
-    top: 114.5%; /* Vertically center */
+    top: 125.5%; /* Vertically center */
     transform: translateY(-50%); /* Correct for centering */
 }
 .event3{
@@ -58,47 +75,47 @@
     align-items: center;
     position: absolute; /* Use absolute positioning */
     left: 1010px; /* Align to the left side of the page */
-    top: 114.5%; /* Vertically center */
+    top: 125.5%; /* Vertically center */
     transform: translateY(-50%); /* Correct for centering */
 }
 .event1 h3 {
     color: transparent; /* Makes the text transparent */
     -webkit-text-stroke: 1px white; /* Adds a white outline to the text */
-    text-stroke: 1px white; /* For non-WebKit browsers (if supported) */
+    /* text-stroke: 1px white; For non-WebKit browsers (if supported) */
     font-weight: bold; /* Optional: Makes the outline more prominent */
     text-align: center; /* Optional: Center-align the text */
 }
 .event2 h3 {
     color: transparent; /* Makes the text transparent */
     -webkit-text-stroke: 1px white; /* Adds a white outline to the text */
-    text-stroke: 1px white; /* For non-WebKit browsers (if supported) */
+    /* text-stroke: 1px white; For non-WebKit browsers (if supported) */
     font-weight: bold; /* Optional: Makes the outline more prominent */
     text-align: center; /* Optional: Center-align the text */
 }
 .event3 h3 {
     color: transparent; /* Makes the text transparent */
     -webkit-text-stroke: 1px white; /* Adds a white outline to the text */
-    text-stroke: 1px rgb(0, 0, 0); /* For non-WebKit browsers (if supported) */
+    /* text-stroke: 1px rgb(0, 0, 0); For non-WebKit browsers (if supported) */
     font-weight: bold; /* Optional: Makes the outline more prominent */
     text-align: center; /* Optional: Center-align the text */
 }
 .event1 h4{
     color: transparent; /* Makes the text transparent */
     -webkit-text-stroke: 1px rgb(0, 0, 0); /* Adds a white outline to the text */
-    text-stroke: 1px rgb(255, 255, 255); /* For non-WebKit browsers (if supported) */
+    /* text-stroke: 1px rgb(255, 255, 255); For non-WebKit browsers (if supported) */
     font-weight: bold; /* Optional: Makes the outline more prominent */
     text-align: center; /* Optional: Center-align the text */
 }
 .event2 h4{
     color: transparent; /* Makes the text transparent */
     -webkit-text-stroke: 1px rgb(0, 0, 0); /* Adds a white outline to the text */
-    text-stroke: 1px white; /* For non-WebKit browsers (if supported) */
+    /* text-stroke: 1px white; For non-WebKit browsers (if supported) */
     font-weight: bold; /* Optional: Makes the outline more prominent */
     text-align: center; /* Optional: Center-align the text */
 }.event3 h4{
     color: transparent; /* Makes the text transparent */
     -webkit-text-stroke: 1px rgb(0, 0, 0); /* Adds a white outline to the text */
-    text-stroke: 1px rgb(255, 255, 255); /* For non-WebKit browsers (if supported) */
+    /* text-stroke: 1px rgb(255, 255, 255); For non-WebKit browsers (if supported) */
     font-weight: bold; /* Optional: Makes the outline more prominent */
     text-align: center; /* Optional: Center-align the text */
 }

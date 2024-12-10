@@ -15,22 +15,13 @@
     background-attachment: fixed;
 }
 .container1 {
-    font-family: 'Poppins', 'sans-serif';
-    display: flex; /* Flexbox for centering */
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    text-align: center;
     position: absolute;
-    left: 20%; /* Move the container to the center horizontally */
+    left: 25%; /* Move the container to the center horizontally */
     top: 20%; /* Move the container to the center vertically */
     transform: translate(-50%); /* Adjust for the container's own dimensions */
-    background: rgb(255, 255, 255); /* White background */
     color: #000000; /* Black text color */
-    width: 400px; /* Adjusted width for content */
-    text-align: center; /* Center text content horizontally */
-    padding: 50px; /* Padding for spacing */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visuals */
-    /* border-radius: 10px; Optional rounded corners */
+    
 }
 .container2{
     background-image: url('C:\Users\WAC\Desktop\Project\imashi\src\Components\Assests\serving1.avif'); /* Ensure the file path is correct */
@@ -47,7 +38,7 @@
     padding: 30px 40px;
     position: absolute; /* Position the container absolutely */
     left: 850px; /* Align it to the left edge of the page */
-    top: 40%; 
+    top: 50%; 
     transform: translateY(-50%); /* Keeps vertical centering consistent */
 }
 .container3{
@@ -83,7 +74,7 @@
     padding: 30px 40px;
     position: absolute; /* Position the container absolutely */
     left: 1200px; /* Align it to the left edge of the page */
-    top: 10%; 
+    top: 30%; 
     transform: translateY(-50%); /* Keeps vertical centering consistent */
 }
 .container5{
@@ -119,7 +110,7 @@
     padding: 30px 40px;
     position: absolute; /* Position the container absolutely */
     left: 1280px; /* Align it to the left edge of the page */
-    top: 25%; 
+    top: 35%; 
     transform: translateY(-50%); /* Keeps vertical centering consistent */
 }
 /* .container-1 {

@@ -30,7 +30,6 @@
   border-radius: 10px;
   position: fixed; /* Ensures it stays at the top */
 }
-
 .nav-bar ul {
   list-style: none; /* Removes default list styling */
   margin: 0 auto; /* Centers the `ul` within the nav-bar */
@@ -39,17 +38,14 @@
   justify-content: center; /* Centers the content inside the `ul` */
   width: 100%; /* Ensures the `ul` spans the width of the nav-bar */
 }
-
 .nav-bar li {
   display: inline-block; /* Ensures horizontal alignment of items */
   margin-right: 100px; /* Adds spacing between items */
 }
-
 .nav-bar a {
   text-decoration: none; /* Removes underline from links */
   color: #000000; /* Sets the link color */
 }
-
 .nav-bar a:hover {
   color: #6286aa; /* Optional: Adds hover effect */
 }
@@ -70,31 +66,25 @@
   color: #ffffff; /* Text color */
   padding: 50px; /* Add padding for spacing */
   /* height: 300px; */
-  margin-top: 150px;
-  
-  
+  margin-top: 150px; 
 }
-
 .title {
   margin: 10px 0;
   font-size: 2rem;
   font-style: italic;
 }
-
 .line {
   height: 2px;
   background-color: white;
   margin: 10px auto;
   width: 100%;
 }
-
 /* Animation styles */
 .animated-title {
   opacity: 1;
   transform: translateY(20px);
   animation: fadeSlideUp 1.5s ease-out forwards;
 }
-
 @keyframes fadeSlideUp {
   0% {
     opacity: 1;
@@ -115,7 +105,6 @@
   justify-content: space-around; /* Space out the items evenly */
   align-items: center; /* Vertically center the items */
 }
-
 .booking-image, .event-image, .section-image {
   width: 50px; /* Set the image width */
   height: auto; /* Maintain aspect ratio */
@@ -128,7 +117,6 @@
   align-items: center; /* Centers children horizontally */
   gap: 20px; /* Adds vertical spacing between rows */
 }
-
 .content-row {
   display: flex; /* Makes the row a flex container */
   justify-content: center; /* Centers items horizontally within the row */
@@ -136,7 +124,6 @@
   width: 100%; /* Ensures the row spans the container width */
   max-width: 1200px; /* Optional: Limits the row's width */
 }
-
 .content3, .content4, .content5 {
   width: 100%; /* Full width within the row */
   max-width: 600px; /* Optional: Limit the maximum width */
@@ -147,19 +134,15 @@
   padding: 30px 40px;
   animation: fadeIn 1.5s ease-out; /* Default fade-in */
 }
-
 .content3 {
   animation: slideInFromLeft 1.5s ease-out; /* Content slides in from the left */
 }
-
 .content4 {
   animation: slideInFromRight 1.5s ease-out; /* Content slides in from the right */
 }
-
 .content5 {
   animation: slideInFromLeft 1.5s ease-out; /* Content slides in from the left */
 }
-
 @keyframes slideInFromLeft {
   0% {
     opacity: 0;
@@ -170,7 +153,6 @@
     transform: translateX(0); /* Slide into its original position */
   }
 }
-
 @keyframes slideInFromRight {
   0% {
     opacity: 0;
@@ -186,19 +168,11 @@
   font-style: italic;
   color: #ffffff;
 }
-
-
-
-
 .content4 p {
   text-align: center; /* Ensures the text is centered below each image */
   font-style: italic;
   color: #ffffff;
 }
-
-
-
-
 .content5 p {
   text-align: center; /* Ensures the text is centered below each image */
   font-style: italic;
@@ -208,7 +182,6 @@
   margin: 0; /* Removes default margins for h3 */
   font-size: 1.5rem; /* Adjust font size */
 }
-
 .booking-header p {
   margin: 0; /* Removes default margins for p */
   font-size: 1rem; /* Adjust font size for readability */

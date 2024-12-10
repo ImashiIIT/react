@@ -4,6 +4,7 @@ import './Event.css';
 const Event = () => {
     return (
         <>
+        <div className='event'>
         <div className='nav-bar'>
         <img src="./Components/Assests/DineFlow.png" alt="Logo" className="nav-logo" />
 
@@ -134,6 +135,7 @@ const Event = () => {
         
 
         <h4>Spend your Christmas Day creating cherished memories with family, friends, and amazing food at [Restaurant Name]. We look forward to celebrating with you! ❄️🍴</h4>
+    </div>
     </div>
         </>
     );
