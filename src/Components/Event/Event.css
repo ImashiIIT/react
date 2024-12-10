@@ -6,6 +6,8 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh; 
+    margin: 0%;
+    padding: 50%;
     overflow-y: auto;
     background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/event.jpg');
     background-size: cover;

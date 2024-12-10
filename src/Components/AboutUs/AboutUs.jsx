@@ -17,12 +17,14 @@ const AboutUs = () => {
         </div>
         <div className='container1'>
         <h1>“Good food is the foundation</h1>
-        <h1>of genuine happiness.”</h1></div>
-        <div className='container2'></div>
-        <div className='container3'></div>
-        <div className='container4'></div>
-        <div className='container5'></div>
-        <div className='container6'></div>
+        <h1>of genuine happiness.”</h1>
+        </div>
+        <div className='about-content1'>At DineFlow, we believe that great food, exceptional service, 
+            and a warm ambiance create memorable experiences. Nestled in the heart of Kandy, 
+            our restaurant is the perfect place to savor delicious cuisine, celebrate life’s special moments, 
+            or simply unwind with friends and family.
+        </div>
+        
         </div>
         </>
     );
