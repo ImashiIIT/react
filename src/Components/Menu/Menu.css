@@ -39,7 +39,7 @@
     flex-direction: column; /* Stacks content inside vertically */
     justify-content: center;
     align-items: center;
-    margin: 140px auto; /* Increase the top and bottom spacing with margin */
+    margin: 180px auto; /* Increase the top and bottom spacing with margin */
     background: rgba(255, 255, 255, 0.8); /* Transparent white background */
     border: 2px solid rgba(101, 96, 96, 0.5); /* Border for contrast */
     border-radius: 10px;
