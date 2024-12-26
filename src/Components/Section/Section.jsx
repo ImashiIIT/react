@@ -15,6 +15,10 @@ const Section= () => {
                     <li><a href="/about">About Us</a></li>
                 </ul>
             </div>
+            <div className='section_con1'>liuytresxcfghjuiuytrewsdcvbhjuytrewsxcvbhjuytresdfghytrewsdfghjuytrdfghjkuytredfghjytrewsdfgh       jytrfghuytredfgb fdrftyujiknhbgfdc vfre4rtyujnbvfdrer5t6yujn vcdsertyujimn bvcxdsertyuijmn bvcdxert6yuikm 
+                <div className='section1'></div>
+            </div>
+            
         </div>        
         </>
     );
