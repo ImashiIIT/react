@@ -28,19 +28,19 @@ const Home = () => {
 
             <div className='content2'>
                 <div className='booking-item'>
-                    <img src="C:\Users\WAC\Desktop\Project\imashi\public\images\booking-icon.png" alt="Booking" className="icon" />
+                    {/* <img src="C:\Users\WAC\Desktop\Project\imashi\public\images\booking_logo.png" alt="Booking" className="icon" /> */}
                     <p><a href='/booking'>Booking</a></p>
                 </div>
                 <div className='event-item'>
-                    <img src="./path_to_event_icon.png" alt="Event" className="icon" />
-                    <p><a href="/event">Event</a></p>
+                    {/* <img src="C:\Users\WAC\Desktop\Project\imashi\public\images\event_logo.png" alt="Event" className="icon" /> */}
+                    <p><a href="/event">Events</a></p>
                 </div>
                 <div className='section-item'>
-                    <img src="./path_to_section_icon.png" alt="Section" className="icon" />
+                    {/* <img src="C:\Users\WAC\Desktop\Project\imashi\public\images\section_logo.png" alt="Section" className="icon" /> */}
                     <p><a href="/section">Sections</a></p>
                 </div>
                 <div className='menu-item'>
-                    <img src="./path_to_menu_icon.png" alt="Menu" className="icon" />
+                    {/* <img src="C:\Users\WAC\Desktop\Project\imashi\public\images\menu_logo.png" alt="Menu" className="icon" /> */}
                     <p><a href="/menu">Menu</a></p>
                 </div>
             </div>
