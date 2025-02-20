@@ -14,15 +14,15 @@
 } 
 .nav-bar {
   width: 100%; /* Ensures the nav-bar spans the full width */
-  max-width: 1200px; /* Optional: Limits the width for larger screens */
-  margin: 30px; /* Adds spacing around the nav-bar */
-  padding: 50px; /* Adds spacing inside the nav-bar */
+  max-width: 1500px; /* Optional: Limits the width for larger screens */
+  /* margin: 30px; Adds spacing around the nav-bar */
+  padding: 30px; /* Adds spacing inside the nav-bar */
   display: flex; /* Makes the nav-bar a flex container */
   justify-content: flex-start; /* Keeps the nav-bar aligned to the left */
   align-items: flex-start; /* Prevents vertical centering */
   position: absolute; /* Overrides body centering */
   top: 0; /* Positions the nav-bar at the top of the page */
-  left: 100px; /* Ensures it starts from the left edge */
+  /* left: 100px; Ensures it starts from the left edge */
   background: rgba(255, 255, 255, 0.5); /* Optional: Semi-transparent background for visibility */
   z-index: 70; /* Ensures the nav-bar stays on top of other elements */
   border-radius: 10px;
@@ -70,7 +70,7 @@
   /* border: 2px solid rgba(226, 221, 221, 0.5);  */
   color: #ffffff;
   /* border-radius:10%; This makes the container circular */
-  padding: 50px 50px;
+  padding: 10px 10px;
   position: absolute; /* Position the container absolutely */
   left: 100px; /* Align it to the left edge of the page */
   top: 50%; 
@@ -83,6 +83,43 @@
   padding: 50px; /* Add padding for spacing */
   /* height: 300px; */
   margin-top: 150px; 
+}
+.container-2 {
+  display: flex;
+  justify-content: center; /* Centers the items */
+  gap: 20px; /* Adds spacing between items */
+}
+.booking-item{
+  background-image: url('C:\Users\WAC\Desktop\Project\imashi\public\images\booking_logo.png');
+  background-repeat: no-repeat;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-size: contain; /* Ensures the whole image fits */
+  background-position: center;
+}
+.event-item{
+  background-image: url('C:\Users\WAC\Desktop\Project\imashi\public\images\event_logo.png');
+  background-repeat: no-repeat;
+  width: 110px; /* Adjust width as needed */
+  height: 110px; /* Adjust height as needed */
+  background-size: contain; /* Ensures the whole image fits */
+  background-position: center;
+}
+.section-item{
+  background-image: url('C:\Users\WAC\Desktop\Project\imashi\public\images\section_logo.png');
+  background-repeat: no-repeat;
+  width: 80px; /* Adjust width as needed */
+  height: 80px; /* Adjust height as needed */
+  background-size: contain; /* Ensures the whole image fits */
+  background-position: center;
+}
+.menu-item{
+  background-image: url('C:\Users\WAC\Desktop\Project\imashi\public\images\menu_logo.png');
+  background-repeat: no-repeat;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-size: contain; /* Ensures the whole image fits */
+  background-position: center;
 }
 .title {
   margin: 10px 0;

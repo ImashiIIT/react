@@ -9,7 +9,7 @@
     /* border: 2px solid rgba(226, 221, 221, 0.5);  */
     color: #ffffff;
     /* border-radius:10%; This makes the container circular */
-    padding: 50px 50px;
+    padding: 30px 30px;
     position: absolute; /* Position the container absolutely */
     left: 100px; /* Align it to the left edge of the page */
     top: 50%; 
@@ -21,12 +21,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center content horizontally */
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-    overflow-y: auto;
+    min-height: 100vh; /* Ensure it covers full height */
+    overflow-y: auto; /* Allow scrolling if content exceeds viewport height */
     background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/contact.jpg');
     background-size: cover;
     background-position: center;
@@ -60,23 +60,26 @@
 }
 
 .contact {
-    left: 110px;
-    top: 20%;
+    left: 170px;
+    top: 25%;
     animation-delay: 0s; /* Starts immediately */
 }
 
 .contact-no {
-    top: 50%;
+    left: 170px;
+    top: 55%;
     animation-delay: 0.5s; /* Starts after 0.5 seconds */
 }
 
 .address {
-    top: 62%;
+    left: 170px;
+    top: 67%;
     animation-delay: 1s; /* Starts after 1 second */
 }
 
 .email {
-    top: 74%;
+    left: 170px;
+    top: 79%;
     animation-delay: 1.5s; /* Starts after 1.5 seconds */
 }
 
@@ -99,19 +102,21 @@
     align-items: center;
     position: absolute;
     left: 780px;
-    top: 57%;
+    top: 60%;
     transform: translateY(-50%);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: rgb(255, 255, 255);
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* color: rgb(255, 255, 255); */
     width: 400px;
-    background: rgb(0, 0, 0, 0.8);
+    background: rgb(0, 0, 0, 0.5);
     border: 2px solid rgba(255, 255, 255, 0.5);
     color: #ffffff;
     border-radius: 10px;
-    padding: 30px 40px;
-    height: 490px;
+    padding: 30px 30px;
+    height: 420px;
+    
+    
 }
 
 .msg-form .input-box {
@@ -147,7 +152,7 @@
     background: #fff;
     border: none;
     outline: none;
-    border-radius: 40px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;

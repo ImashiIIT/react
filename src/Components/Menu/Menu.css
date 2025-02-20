@@ -26,7 +26,7 @@
     /* border: 2px solid rgba(226, 221, 221, 0.5);  */
     color: #ffffff;
     /* border-radius:10%; This makes the container circular */
-    padding: 50px 50px;
+    padding: 30px 30px;
     position: absolute; /* Position the container absolutely */
     left: 100px; /* Align it to the left edge of the page */
     top: 50%; 
