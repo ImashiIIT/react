@@ -2,11 +2,12 @@
   font-family: 'Poppins', 'sans-serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
+  /* display: flex; */
+  position: relative;
   flex-direction: column; /* Stack child elements vertically */
   align-items: center; /* Center content horizontally */
-  min-height: 100vh; /* Ensure it covers full height */
-  overflow-y: auto; /* Allow scrolling if content exceeds viewport height */
+  min-height: 100vh; /*Ensure it covers full height*/
+  overflow-y: auto; /*Allow scrolling if content exceeds viewport height */
   background-image: url('C:/Users/WAC/Desktop/Project/imashi/public/images/Home.jpg');
   background-size: cover;
   background-position: center;

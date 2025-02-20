@@ -21,6 +21,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
+  position: relative;
   flex-direction: column; /* Stack child elements vertically */
   align-items: center; /* Center content horizontally */
   min-height: 100vh; /* Ensure it covers full height */
